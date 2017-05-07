@@ -1,0 +1,66 @@
+a{
+	color:inherit;
+}
+
+
+$citron: #93c01f;
+$woodsmoke: #101113;
+$dustyGray: #9B9B9B;
+
+.darkBackground, header, #call, #btnSubmit:hover{
+	background-color: $woodsmoke;
+}
+
+header{
+	text-shadow: .15rem .15rem $woodsmoke;
+}
+
+.secondaryTextColor,nav a:hover, .btnSecondary:hover{
+	color:$dustyGray;
+}
+
+.dot, .btnMain:hover{
+	background-color:white;
+}
+
+.lime, .active, .btnMain, .btnSecondary:hover{
+	background-color: $citron;
+}
+
+.btnSecondary:hover{
+	border:.1rem solid black;
+}
+
+.limeText, #selected, .btnMain:hover, nav a:active, .hoverLink p:hover{
+	color: $citron;
+}
+
+.btnMain:active, .btnSecondary:active{ /*has to go after the hover pseudo class*/
+	color:$woodsmoke;
+}
+
+.whiteText, .btn, #btnSubmit:hover{
+	color:white;
+}
+
+#btnSubmit:active{ /*has to go after the hover pseudo class*/
+	color: $citron; 
+}
+
+.btnSecondary{
+	border: .1rem solid white;
+}
+
+#btnSubmit{
+	border: .1rem solid black;
+	color:black;
+
+}
+
+#footerLine{
+	border-bottom: solid .1rem $dustyGray;
+}
+
+.line{
+	border-bottom: solid .1rem $citron;
+}

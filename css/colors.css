@@ -1,0 +1,49 @@
+a {
+  color: inherit; }
+
+.darkBackground, header, #call, #btnSubmit:hover {
+  background-color: #101113; }
+
+header {
+  text-shadow: 0.15rem 0.15rem #101113; }
+
+.secondaryTextColor, nav a:hover, .btnSecondary:hover {
+  color: #9B9B9B; }
+
+.dot, .btnMain:hover {
+  background-color: white; }
+
+.lime, .active, .btnMain, .btnSecondary:hover {
+  background-color: #93c01f; }
+
+.btnSecondary:hover {
+  border: .1rem solid black; }
+
+.limeText, #selected, .btnMain:hover, nav a:active, .hoverLink p:hover {
+  color: #93c01f; }
+
+.btnMain:active, .btnSecondary:active {
+  /*has to go after the hover pseudo class*/
+  color: #101113; }
+
+.whiteText, .btn, #btnSubmit:hover {
+  color: white; }
+
+#btnSubmit:active {
+  /*has to go after the hover pseudo class*/
+  color: #93c01f; }
+
+.btnSecondary {
+  border: .1rem solid white; }
+
+#btnSubmit {
+  border: .1rem solid black;
+  color: black; }
+
+#footerLine {
+  border-bottom: solid 0.1rem #9B9B9B; }
+
+.line {
+  border-bottom: solid 0.1rem #93c01f; }
+
+/*# sourceMappingURL=colors.css.map */

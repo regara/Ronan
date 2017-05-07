@@ -1,0 +1,210 @@
+@media only screen and (max-width: 62.4rem) {
+  .hidden {
+    display: none; } }
+@media (min-width: 43.75rem) {
+  /*700px*/
+  .hiddenMediaQuery {
+    display: none; }
+
+  nav {
+    justify-content: space-between;
+    flex-direction: row;
+    height: 4rem; }
+
+  #navLinks {
+    flex-direction: row; }
+    #navLinks a {
+      font-size: 1.4rem;
+      margin: 0 .4rem; }
+
+  #logo {
+    margin: 0; }
+
+  input, textarea {
+    font-size: 1.4rem; }
+
+  footer, #footerLinks {
+    padding: 2rem 0; }
+
+  #footerContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    #footerContacts div {
+      flex-direction: column;
+      width: 33%; }
+      #footerContacts div img {
+        width: 4rem; }
+
+  #footerLinks {
+    display: flex;
+    justify-content: center; }
+    #footerLinks a img {
+      width: 2rem;
+      padding: 1rem; } }
+@media (min-width: 62.5rem) {
+  /*1000px*/
+  h1 {
+    font-size: 4.5rem;
+    margin-top: 0; }
+
+  nav {
+    border-bottom: 0.2rem solid rgba(220, 220, 220, 0.1); }
+    nav #logo {
+      font-size: 2.5rem; }
+    nav #navLinks a {
+      font-size: 2rem;
+      margin: .6rem; }
+
+  #navText {
+    text-align: center; }
+    #navText a {
+      margin: 0 auto; }
+
+  #specs {
+    justify-content: space-around;
+    padding-bottom: 1rem; }
+    #specs h5 {
+      text-align: center;
+      margin: 0; }
+    #specs p {
+      font-size: 1.6rem; }
+
+  h3, h5 {
+    font-size: 3rem; }
+
+  h3 {
+    margin-bottom: 0; }
+
+  #navText h3 {
+    margin: 1.8rem 0; }
+
+  h2 {
+    font-size: 3.5rem;
+    margin-top: 0; }
+
+  #servicesList {
+    padding: 2rem 0;
+    justify-content: space-between;
+    flex-direction: column; }
+    #servicesList div {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column; }
+    #servicesList p {
+      font-size: 2rem; }
+
+  .servicesImg img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem; }
+
+  p {
+    font-size: 2rem; }
+
+  #attributeList {
+    flex-direction: column; }
+    #attributeList img {
+      width: 10rem; }
+    #attributeList .atributeGroup {
+      padding: 2rem 10%; }
+      #attributeList .atributeGroup h5 {
+        margin: 0; }
+      #attributeList .atributeGroup .whiteText {
+        padding-left: 2rem; }
+        #attributeList .atributeGroup .whiteText p {
+          text-align: left; }
+
+  .teamSpace h4 {
+    font-size: 2.6rem; }
+  .teamSpace p {
+    font-size: 2rem; }
+
+  #footerContacts {
+    padding-top: 5rem; }
+    #footerContacts div h5 {
+      font-size: 2rem;
+      margin: 0; }
+    #footerContacts div p {
+      margin: 1rem 0 .5rem;
+      font-size: 1.6rem; }
+
+  #copyRight p {
+    font-size: 1.3rem; } }
+@media (min-width: 75rem) {
+  /* 1200px */
+  #map {
+    height: 60vh; }
+
+  nav #navLinks a {
+    font-size: 1.6rem;
+    margin: 1.2rem; }
+
+  h3 {
+    font-size: 1.8rem; }
+
+  h2 {
+    font-size: 3rem; }
+
+  p {
+    font-size: 1.2rem; }
+
+  #specs p {
+    font-size: 1.2rem; }
+
+  #servicesList {
+    display: flex;
+    flex-direction: row; }
+    #servicesList p {
+      font-size: 1.2rem; }
+
+  .servicesImg img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem; }
+
+  #attributeList {
+    flex-direction: row; }
+    #attributeList img {
+      width: 4rem; }
+    #attributeList .atributeGroup {
+      padding: 0 .5rem;
+      width: 25%; }
+      #attributeList .atributeGroup h5 {
+        margin: 0;
+        font-size: 1.2rem; }
+      #attributeList .atributeGroup .whiteText {
+        padding-left: 1rem; }
+        #attributeList .atributeGroup .whiteText p {
+          font-size: 1rem; }
+
+  #TeamParent div {
+    display: flex; }
+
+  #TeamParent div div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1%;
+    text-align: left;
+    width: 100%; }
+    #TeamParent div div .secondaryTextColor {
+      text-align: left; }
+
+  .teamSpace h4 {
+    font-size: 2rem; }
+  .teamSpace p {
+    font-size: 1.2rem; }
+
+  .teamSpace h4, .teamSpace p {
+    margin: .1rem 0;
+    text-align: left; }
+
+  #carouselParent div {
+    padding: 1rem 0; }
+
+  #footerContacts div p {
+    font-size: 1.2rem; }
+  #footerContacts div h5 {
+    font-size: 1.6rem; } }
+
+/*# sourceMappingURL=mediaQueries.css.map */

@@ -1,0 +1,206 @@
+a {
+  text-decoration: none; }
+
+html {
+  box-sizing: border-box;
+  height: 100%; }
+
+body, textarea, input {
+  font-family: 'Tinos', serif; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+img {
+  box-sizing: content-box;
+  width: 100%; }
+
+/******************** NORMALIZE ********************/
+nav, section, header, .btn, form div, #submitDiv, #submitDiv footer,
+#navLinks, .carouselChild, #footerLinks div, #footerContacts div, #specs,
+#attributeList, .atributeGroup {
+  display: flex; }
+
+section, footer, nav, #navText {
+  max-width: 100%;
+  padding: 2rem 9%; }
+
+section, header, footer, #navLinks {
+  flex-direction: column; }
+
+body {
+  margin: 0; }
+
+h2, h3, p {
+  text-align: center; }
+
+/******************** General ********************/
+nav a, h5 {
+  font-size: 2.5rem; }
+
+p {
+  font-size: 1.4rem; }
+
+h4 {
+  font-size: 1.8rem; }
+
+h3 {
+  font-size: 2.2rem; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h1 {
+  font-size: 2.5rem; }
+
+#logo {
+  font-size: 2rem; }
+
+/******************** Sizes ********************/
+header {
+  background: url("../img/10.jpg");
+  background-size: 100% 100%; }
+
+nav {
+  flex-direction: column;
+  align-items: center; }
+  nav a {
+    margin: 1rem 0;
+    text-align: center; }
+  nav #navLinks a {
+    font-weight: bold; }
+
+/******************** Header ********************/
+.teamSpace {
+  padding: 0 0 2rem 0; }
+  .teamSpace p, .teamSpace h4 {
+    margin: 0;
+    font-size: 1.5rem; }
+
+.teamTitle {
+  text-align: left; }
+
+/******************** Team ********************/
+.carouselChild {
+  flex-direction: column; }
+
+.endorser {
+  padding: 2rem 0; }
+  .endorser h3, .endorser p {
+    margin: 0; }
+
+#carouselDots {
+  text-align: center;
+  padding-bottom: 1.5rem; }
+
+#call div {
+  text-align: center;
+  padding: 5rem 0; }
+  #call div h3 {
+    font-size: 2rem;
+    margin-bottom: .5rem; }
+  #call div h4 {
+    margin: 0;
+    font-size: 4rem; }
+#call .line {
+  width: 5rem;
+  display: inline-block;
+  margin: .6rem 0 2rem; }
+
+#carouselParent {
+  background-image: url("../img/buttons1.jpg");
+  background-size: 100% 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); }
+
+.dot {
+  /* carouselDots */
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+/******************** Carousel ********************/
+input, textarea {
+  margin: 1.5rem 0;
+  height: 2.5rem; }
+
+textarea {
+  height: 8rem; }
+
+form div input, form div textarea {
+  border: none;
+  border-bottom: .1rem solid black; }
+
+#formRow {
+  margin-top: 2rem; }
+  #formRow input {
+    width: 100%; }
+
+#formColumn {
+  flex-direction: column; }
+
+#formName {
+  margin-right: 1rem; }
+
+#submitDiv {
+  align-items: center; }
+
+.btn {
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5rem;
+  /*40px*/
+  width: 12rem;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-shadow: none;
+  margin: 0 auto;
+  transition: .4s; }
+
+#submitDiv {
+  margin-bottom: 2rem;
+  justify-content: center; }
+
+/******************** Form ********************/
+#map {
+  /*Google Map*/
+  height: 40vh; }
+
+/******************** Map ********************/
+#footerContacts div {
+  align-items: center; }
+  #footerContacts div p {
+    font-size: 1.2rem;
+    padding-left: .5rem; }
+
+footer a img {
+  width: 1rem; }
+
+#footerLinks {
+  padding: 1rem 0; }
+  #footerLinks div {
+    justify-content: space-around; }
+
+#copyRight p {
+  margin-bottom: 0;
+  font-size: 1rem; }
+
+#footerLine {
+  width: 80%;
+  margin: 2rem auto 0; }
+
+#footerLinks img {
+  transition: 2s; }
+
+#footerLinks img:hover {
+  -webkit-transform: rotateZ(-360deg);
+  -ms-transform: rotateZ(-360deg);
+  transform: rotateZ(-360deg);
+  width: 4rem; }
+
+/******************** Footer ********************/
+
+/*# sourceMappingURL=general.css.map */
